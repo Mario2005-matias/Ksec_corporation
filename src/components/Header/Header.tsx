@@ -25,7 +25,7 @@ export default function Header() {
             <Link href='/product' className='transition-all duration-200 ease-in-out hover:text-zinc-300 hover:font-medium'>Produto</Link>
             <Link href='/client' className='transition-all duration-200 ease-in-out hover:text-zinc-300 hover:font-medium'>Clientes</Link>
             <Link href='/parce' className='transition-all duration-200 ease-in-out hover:text-zinc-300 hover:font-medium'>Parceiros</Link>
-            <Link href='/parce' className='transition-all duration-200 ease-in-out hover:text-zinc-300 hover:font-medium'>Sobre</Link>
+            <Link href='/about' className='transition-all duration-200 ease-in-out hover:text-zinc-300 hover:font-medium'>Sobre</Link>
         </nav>
       </section>
 
