@@ -1,5 +1,7 @@
 import React from 'react'
+//import Image from 'next/image'
 import { FaHome } from "react-icons/fa"
+//import Banner from "/public/images/banner.png"
 
 
 export default function About(){
@@ -15,6 +17,25 @@ export default function About(){
             </div>
             <h1 className='text-5xl p-3'>Sobre Nós</h1>
           </main>
+          <section>
+            <div id="conteudo">
+              <div className="button">
+                <p>SOBRE NÓS</p>
+              </div>
+              <h1>Nós Estamos a Providencia <strong>Segurança Digital</strong> Para Ti</h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam cum libero voluptatibus animi? Minus animi maxime odio cupiditate est impedit voluptatum eum temporibus, exercitationem, commodi corrupti dolores deleniti in excepturi!</p>
+              <div id="porcentagem">
+                <p>Proteção em tempo real</p>
+                <p>Proteje sua privacidade</p>
+              </div>
+              <div>
+                <p>Saber mais</p>
+              </div>
+            </div>
+            <div id="container-img">
+              
+            </div>
+          </section>
         </>
     )
 }
