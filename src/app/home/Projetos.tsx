@@ -11,19 +11,19 @@ export default function Projetos() {
 }
 export const projects = [
   {
-    title: "Ksecurity",
+    title: "CTI(Cyber Threat Intelligence)",
     description:
       "Lorem A technology company that builds economic infrastructure for the internet.",
     link: "https://stripe.com",
   },
   {
-    title: "Ksecurity",
+    title: "Security Assessmenent",
     description:
       "Lorem A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
     link: "https://netflix.com",
   },
   {
-    title: "Ksecurity",
+    title: "Adesc(Acção Defensiva Segura)",
     description:
       "Lorem A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
     link: "https://netflix.com",
