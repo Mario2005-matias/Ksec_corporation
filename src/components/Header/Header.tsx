@@ -9,7 +9,7 @@ import Button from '@/components/Forms/Button'
 
 export default function Header() {
   return (
-    <main className={`${styles.header} w-full text-zinc-200 px-10 py-1 flex justify-between items-center shadow-md shadow-zinc-900 backdrop-blur-md bg-[#09090b]/80 z-50 sticky top-0`}>
+    <main className={`${styles.header} w-full text-zinc-200 px-10 py-1 flex justify-between items-center shadow-sm shadow-zinc-900 backdrop-blur-md bg-[#09090b]/80 z-50 sticky top-0`}>
 
         {/* Add Logotipo K */}
       <section className=''> <Logo /></section>
