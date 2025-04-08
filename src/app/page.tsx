@@ -7,6 +7,7 @@ import styles from './home/Home.module.scss'
 import Projetos from './home/Projetos'
 import Equipe from './home/Equipe'
 import ShowClient from './home/ShowClient'
+import Parceria from "./home/Parceria";
 
 export default function Home() {
 
@@ -74,8 +75,12 @@ export default function Home() {
        <section className="Container w-full h-full flex flex-col justify-center items-center">
 
             <div className='flex flex-col items-center justify-center pb-8 max-w-3xl mx-auto'>
-                <h2 className='subTitle'>Parceiros Extrategico</h2>
+                <h2 className='subTitle'>Ha Vantagens por ser Parceiro</h2>
                 <p className='text-center text-zinc-400 font-lg'>A força das nossas soluções também vem das colaborações que construímos. Nossos parceiros contribuem com tecnologias, conhecimento e inovação para um ecossistema digital mais seguro.</p>
+            </div>
+
+            <div>
+                <Parceria/>
             </div>
 
        </section>
