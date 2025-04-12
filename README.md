@@ -36,17 +36,17 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="#" title="defina o título do link">
-        <img src="https://s2.glbimg.com/FUcw2usZfSTL6yCCGj3L3v3SpJ8=/smart/e.glbimg.com/og/ed/f/original/2019/04/25/zuckert.jpg" width="100px;" alt="Perfil de"/><br>
+        <img src="https://avatars.githubusercontent.com/u/159073520?v=4" width="100px;" alt="Perfil de Mario"/><br>
         <sub>
-          <b>Nome</b>
+          <b>Mario Matias</b>
         </sub>
       </a>
     </td>
     <td align="center">
       <a href="#" title="defina o título do link">
-        <img src="https://miro.medium.com/max/360/0*1SkS3S.jpg" width="100px;" alt="Perfil de"/><br>
+        <img src="https://miro.medium.com/max/360/0*1SkS3S.jpg" width="100px;" alt="Perfil de Marcia"/><br>
         <sub>
-          <b></b>
+          <b>Marcia Gaieta</b>
         </sub>
       </a>
     </td>
