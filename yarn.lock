@@ -2536,6 +2536,7 @@ kleur@^4.1.5:
     clsx "^2.1.1"
     framer-motion "^12.6.3"
     ksec_corporation "file:"
+    lucide-react "^0.487.0"
     motion "^12.6.3"
     next "15.2.4"
     ogl "^1.0.11"

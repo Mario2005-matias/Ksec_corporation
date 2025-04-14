@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "./globals.scss";
+
+// import the components
 import Header from "@/components/Header/Header";
+import Footer from '@/components/Footer/Footer'
 
 //Adicionando as configuracoes das fontes do google
 const roboto = Roboto({
@@ -23,8 +26,16 @@ export default function RootLayout({ children }: Readonly<{
     <html lang="pt-BR">
       <body
         className={`${roboto.variable} antialiased`}>
-        <Header />
-        {children}
+
+        <div className='min-h-screen flex flex-col'>
+          <Header />
+
+          <main className='flex-1'>
+              {children}
+          </main>
+          
+          <Footer />
+        </div>
         
       </body>
     </html>
