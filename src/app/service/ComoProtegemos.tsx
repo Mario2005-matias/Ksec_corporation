@@ -2,7 +2,6 @@
 "use client";
 
 import { ShieldCheck, Lock, AlertTriangle, Server } from "lucide-react";
-
 const features = [
   {
     icon: <ShieldCheck size={32} color="green" />,
@@ -26,23 +25,20 @@ const features = [
   }
 ];
 
-export default function HowAsign() {
+export default function ComoProtegemos() {
   return (
-    <section className="bg-black text-white py-16 px-4">
-      <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-12">
-          Como protegemos seus dados
-        </h2>
+    <section className=" text-zinc-200 px-4">
+      <div className="max-w-5xl mx-auto text-center ">
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {features.map((item, index) => (
             <div
               key={index}
-              className="border border-gray-700 rounded-xl p-6 hover:border-green-500 transition"
+              className=" p-6 flex flex-col justify-center items-start py-12 px-8 rounded-lg border border-zinc-800"
             >
-              <div className="mb-4">{item.icon}</div>
-              <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
-              <p className="text-gray-400 text-sm">{item.description}</p>
+              <div className="text-justify text-5xl text-[#0aa00a] mb-2">{item.icon}</div>
+              <h3 className="text-xl font-semibold text-justify">{item.title}</h3>
+              <p className="text-justify px-x text-sm text-zinc-600">{item.description}</p>
             </div>
           ))}
         </div>
