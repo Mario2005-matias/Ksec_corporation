@@ -1,8 +1,6 @@
-// app/components/FaqSection.tsx
 "use client";
 
 import { useState } from "react";
-import styles from "../home/Home.module.scss"
 import { ChevronDown } from "lucide-react";
 
 const faqs = [
@@ -36,28 +34,20 @@ export default function FaqSection() {
   };
 
   return (
-    <section className="bg-black text-white py-20 px-4">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
-        {/* Left side */}
-        <div>
-          <div className="w-14 border-gray-400 border border-colapse rounded-md px-2 py-1">
-            <span className={styles.textDestaque}>FAQ_</span>
-          </div>
-          <h2 className="text-3xl font-bold">Perguntas e respostas mais frequentes</h2>
-        </div>
-
+    <section className=" text-zinc-200 px-4 pt-8">
         {/* Right side */}
-        <div className="space-y-4">
+        <div className="mx-auto max-w-5xl">
+
           {faqs.map((faq, index) => (
-            <div key={index} className="border-b border-gray-800 pb-4">
+            <div key={index} className="border-b border-zinc-800 pb-4">
               <button
-                className="w-full flex justify-between items-center text-left text-white"
+                className="w-full flex justify-between items-center text-left text-zinc-300"
                 onClick={() => toggle(index)}
               >
-                <span className="text-gray-400 font-mono mr-2">
+                <span className="text-zinc-400 font-mono mr-2">
                   {String(index + 1).padStart(2, "0")}.
                 </span>
-                <span className="flex-1 text-base">{faq.question}</span>
+                <span className="flex-1 text-xl">{faq.question}</span>
                 <ChevronDown
                   className={`transition-transform duration-200 ${
                     openIndex === index ? "rotate-180" : ""
@@ -66,12 +56,12 @@ export default function FaqSection() {
                 />
               </button>
               {openIndex === index && (
-                <p className="mt-2 text-sm text-gray-400 pl-7">{faq.answer}</p>
+                <p className="mt-2 text-base text-zinc-400 pl-7">{faq.answer}</p>
               )}
             </div>
           ))}
         </div>
-      </div>
+
     </section>
   );
 }
