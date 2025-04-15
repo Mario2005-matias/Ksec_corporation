@@ -97,7 +97,7 @@ export default function Home() {
                 <p className='md:text-center text-justify text-zinc-400 font-lg max-w-4xl'>Nossa equipe é formada por especialistas altamente qualificados, comprometidos em entregar excelência e inovação em cada solução. São eles que garantem a qualidade e a segurança que sua empresa merece.</p>
             </div>
 
-            <div className='mx-auto md:px-0 px-8'>
+            <div className='mx-auto px-8 '>
                   <Equipe/>
             </div>
        </section>

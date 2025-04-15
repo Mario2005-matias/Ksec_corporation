@@ -35,7 +35,7 @@ export default function Parceria(){
 
 
     return(
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-5xl">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-5xl md:px-5">
             <Card className='flex flex-col justify-center items-center py-12 px-8 rounded-lg border border-zinc-800 md:hover:scale-105 transition-transform duration-300 ease-in-out'>
                 <CardContent className=''>
                 <FaHandshake className="text-justify text-5xl text-[#0aa00a] mb-2" />
