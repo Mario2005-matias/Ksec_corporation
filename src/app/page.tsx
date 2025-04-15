@@ -15,7 +15,7 @@ export default function Home() {
     <main className="h-full w-full">
       
       {/* Adiciona o HeadLine Home */}
-       <section className='relative h-full w-full pb-24'>
+       <section id='home' className=' relative h-full w-full pb-24'>
         
         {/* Add Delay */}
         <div className='bg-[#09090b]/80 z-10 absolute top-0 left-0 w-full h-full backdrop-blur-sm'></div>
@@ -44,7 +44,7 @@ export default function Home() {
        </section>
 
       {/* sections Projetos */}
-       <section className="Container w-full h-full flex flex-col justify-center items-center py-24">
+       <section id='projets' className=" Container w-full h-full flex flex-col justify-center items-center py-24">
 
             <div className='flex flex-col items-center justify-center max-w-3xl mx-auto'>
                 <h2 className='subTitle'>Nossas Solucoes</h2>
@@ -58,7 +58,7 @@ export default function Home() {
        </section>
 
       {/* sections Clients */}
-       <section className="Container w-full h-full flex flex-col justify-center items-center py-24">
+       <section id='client' className=" Container w-full h-full flex flex-col justify-center items-center py-24">
 
             <div className='flex flex-col items-center justify-center pb-8 max-w-3xl mx-auto'>
                 <h2 className='subTitle'>Nossos Clientes</h2>
@@ -71,7 +71,7 @@ export default function Home() {
        </section>
 
       {/* sections Parceiros */}
-       <section className="Container w-full h-full flex flex-col justify-center items-center py-24">
+       <section id='connection' className="Container w-full h-full flex flex-col justify-center items-center py-24 ">
 
             <div className='flex flex-col items-center justify-center pb-8 max-w-3xl mx-auto'>
                 <h2 className='subTitle'>Ha Vantagens por ser Parceiro</h2>
@@ -85,7 +85,7 @@ export default function Home() {
        </section>
 
       {/* sections Equipe */}
-       <section className="Container h-full w-full flex flex-col justify-center items-center py-24">
+       <section id='equipe' className="Container h-full w-full flex flex-col justify-center items-center py-24">
 
             <div className='flex flex-col items-center justify-center pb-8 max-w-3xl mx-auto'>
                 <h2 className='subTitle'>Nossa Equipe</h2>
