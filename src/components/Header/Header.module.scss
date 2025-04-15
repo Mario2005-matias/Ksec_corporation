@@ -1,3 +1,8 @@
+.btnMobile{
+    box-shadow:0 0 1px 1px #078a42;
+    padding-inline:.5rem;
+    padding-block:.5rem
+}
 .button{
     box-shadow:0 0 1px 1px #078a42;
     transition: all 0.3s ease-in-out;
@@ -5,5 +10,15 @@
     &:hover, &:focus{
         // background: linear-gradient(to bottom right, #008010, #078a42);
         background: #0d0d10;
+    }
+}
+
+.button1{
+    background: linear-gradient(to bottom right, #008010, #078a42);
+    transition: all 0.3s ease-in-out;
+
+    &:hover{
+        background: linear-gradient(to bottom right, #008010, #078a42);
+
     }
 }
