@@ -12,19 +12,22 @@ export default function Header() {
     <main className={`${styles.header} w-full text-zinc-200 px-10 py-1 flex justify-between items-center shadow-sm shadow-zinc-900 backdrop-blur-md bg-[#09090b]/80 z-50 sticky top-0`}>
 
         {/* Add Logotipo K */}
-      <section className=''> <Logo /></section>
+      <section className=''> 
+          <Link href='/'> <Logo /></Link>
+      </section>
 
       <section className='flex justify-around items-center gap-4'>
 
-        {/* Config: mode theme */}
+        {/* feture Config: mode theme */}
         <div> <span className='text-xl'><CiLight /></span></div>
         
         {/* Navigate to navBar */}
         <nav className=' flex gap-2 items-center justify-center text-lg font-normal text-zinc-200 '>
-            <Link href='/' className='transition-all duration-300 ease-in-out hover:text-zinc-300 hover:scale-105'>Home</Link>
-            <Link href='/service' className='transition-all duration-300 ease-in-out hover:text-zinc-300 hover:scale-105'>Produtos</Link>
-            <Link href='/client' className='transition-all duration-300 ease-in-out hover:text-zinc-300 hover:scale-105'>Clientes</Link>
-            <Link href='/parce' className='transition-all duration-300 ease-in-out hover:text-zinc-300 hover:scale-105'>Parceiros</Link>
+            <Link href='/#home' className='transition-all duration-300 ease-in-out hover:text-zinc-300 hover:scale-105'>Home</Link>
+            <Link href='/#projets' className='transition-all duration-300 ease-in-out hover:text-zinc-300 hover:scale-105'>Produtos</Link>
+            <Link href='/#client' className='transition-all duration-300 ease-in-out hover:text-zinc-300 hover:scale-105'>Clientes</Link>
+            <Link href='/#connection' className='transition-all duration-300 ease-in-out hover:text-zinc-300 hover:scale-105'>Parceiros</Link>
+            <Link href='/#equipe' className='transition-all duration-300 ease-in-out hover:text-zinc-300 hover:scale-105'>Equipe</Link>
             
         </nav>
       </section>
