@@ -9,7 +9,9 @@
   --verde-cyber: #0aa00a;
   --foreground: #f4f4f5;
 }
-
+html{
+    scroll-behavior:smooth; 
+}
 //Reset Css
 *{
   margin:0;
