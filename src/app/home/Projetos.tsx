@@ -1,17 +1,11 @@
 "use client"
 
 import { HoverEffect } from "../../components/ui/card-hover-effect";
-import Link from 'next/link'
 
 export default function Projetos() {
   return (
     <div className=" max-w-5xl mx-auto">
       <HoverEffect items={projects} />
-
-       <div className='text-center mx-auto'>
-          <Link href='/service' className='text-[#0aa00a]'>Mais detalhes</Link>
-       </div>
-
     </div>
   );
 }

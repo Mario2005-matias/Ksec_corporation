@@ -85,7 +85,7 @@ const EquipeComponent: React.FC<EquipeProps> = ({ testimonials, autoplay = false
             <p className="text-sm text-zinc-400">
               {testimonials[active].designation}
             </p>
-            <p className="text-sm text-zinc-600 mt-5">
+            <p className="text-sm text-zinc-600 mt-5 text-justify md:text-start">
               {testimonials[active].quote}
             </p>
             <p className="text-sm text-zinc-400 mt-5">

@@ -35,8 +35,8 @@ export default function Parceria(){
 
 
     return(
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-5xl">
-            <Card className='flex flex-col justify-center items-center py-12 px-8 rounded-lg border border-zinc-800 hover:scale-105 transition-transform duration-300 ease-in-out'>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-5xl md:px-5">
+            <Card className='flex flex-col justify-center items-center py-12 px-8 rounded-lg border border-zinc-800 md:hover:scale-105 transition-transform duration-300 ease-in-out'>
                 <CardContent className=''>
                 <FaHandshake className="text-justify text-5xl text-[#0aa00a] mb-2" />
                     <h3 className="text-xl font-semibold text-justify">Parcerias Estratégicas</h3>
@@ -47,7 +47,7 @@ export default function Parceria(){
                 </CardContent>
             </Card>
 
-            <Card className='flex flex-col justify-center items-center py-12 px-8 rounded-lg border border-zinc-800 hover:scale-105 transition-transform duration-300 ease-in-out'>
+            <Card className='flex flex-col justify-center items-center py-12 px-8 rounded-lg border border-zinc-800 md:hover:scale-105 transition-transform duration-300 ease-in-out'>
                 <CardContent className=''>
                 <FaCogs className="text-justify text-5xl text-[#0aa00a] mb-2" />
                     <h3 className=" text-justify text-xl font-semibold">Soluções Personalizadas</h3>
@@ -58,7 +58,7 @@ export default function Parceria(){
                 </CardContent>
             </Card>
 
-            <Card className='py-12 px-8 rounded-lg border border-zinc-800 hover:scale-105 transition-transform duration-300 ease-in-out'>
+            <Card className='py-12 px-8 rounded-lg border border-zinc-800 md:hover:scale-105 transition-transform duration-300 ease-in-out'>
             <FaChartLine className="text-justify text-5xl text-[#0aa00a] mb-2" />
                 <CardContent className=''>
                     <h3 className="text-justify text-xl font-semibold">Cresça Conosco</h3>
