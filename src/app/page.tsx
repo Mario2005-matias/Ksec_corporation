@@ -56,10 +56,9 @@ export default function Home() {
             <div className='max-w-5xl md:px-0 px-8'>
               <Projetos/>
             </div>
-
             <div className='text-center mx-auto'>
            <Link href='/service' className='text-[#0aa00a]'>Mais detalhes</Link>
-            </div>
+       </div>
 
        </section>
 

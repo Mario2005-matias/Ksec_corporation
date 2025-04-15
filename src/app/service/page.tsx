@@ -45,7 +45,7 @@ export default function Product() {
         </section>
 
 
-          <section>
+          <section className="Container">
               <CallToAction/>
           </section>
 
@@ -55,7 +55,7 @@ export default function Product() {
                <h2 className='subTitle'> Perguntas Frequentes </h2>
           </div> 
 
-          <div className='md:px-0 px-8 '>
+          <div className=' md:px-0 px-8 '>
              <FaqSection/>
           </div>
         </section>

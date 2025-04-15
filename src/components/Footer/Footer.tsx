@@ -14,7 +14,7 @@ export default function Footer(){
     return (
         <>
             {/* Show Logo */}
-            <footer className="bg-zinc-100">
+            <footer className="bg-zinc-200">
                 <div className="mx-auto max-w-screen-xl px-4 pt-10 pb-6 sm:px-6 lg:px-8 lg:pt-24">
                     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
                         <div>

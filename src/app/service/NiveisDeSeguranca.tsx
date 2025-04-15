@@ -10,28 +10,28 @@ const NiveisDeSeguranca = () => {
           
           {/* Primeiro item: Proteção Total */}
           <div className="flex flex-col items-center justify-center px-4 py-6">
-            <Shield size={50} className="text-green-500 mb-2" />
+            <Shield size={40} className="text-green-500 mb-2" />
             <h3 className="font-medium text-center text-2xl">Proteção Total</h3>
             <p className="text-sm text-gray-400 text-center">Defesa contra malware</p>
           </div>
           
           {/* Segundo item: Acesso Seguro */}
           <div className="flex flex-col items-center justify-center px-4 py-6">
-            <Lock size={50} className="text-green-500 mb-2" />
+            <Lock size={40} className="text-green-500 mb-2" />
             <h3 className="font-medium text-center  text-2xl">Acesso Seguro</h3>
             <p className="text-sm text-gray-400 text-center">Autenticação em 2 fatores</p>
           </div>
           
           {/* Terceiro item: Detecção Avançada */}
           <div className="flex flex-col items-center justify-center px-4 py-6">
-            <AlertTriangle size={50} className="text-green-500 mb-2" />
+            <AlertTriangle size={40} className="text-green-500 mb-2" />
             <h3 className="font-medium text-center text-2xl">Detecção Avançada</h3>
             <p className="text-sm text-gray-400 text-center">Alerta de ameaças em tempo real</p>
           </div>
           
           {/* Quarto item: Monitoramento 24/7 */}
           <div className="flex flex-col items-center justify-center px-4 py-6">
-            <Eye size={50} className="text-green-500 mb-2" />
+            <Eye size={40} className="text-green-500 mb-2" />
             <h3 className="font-medium text-center  text-2xl">Monitoramento 24/7</h3>
             <p className="text-sm text-gray-400 text-center">Vigilância constante da rede</p>
           </div>

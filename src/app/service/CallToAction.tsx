@@ -10,7 +10,7 @@ import Button from '@/components/Forms/Button'
 
 export default function CallToAction() {
   return (
-    <section className="bg-gradient-to-r from-green-600 via-green-500 to-green-400 py-20 px-4 text-white relative overflow-hidden">
+    <section className="bg-gradient-to-r from-green-600 via-green-500 to-green-400 py-16 px-4 text-white relative overflow-hidden rounded-full">
       <div className="max-w-5xl mx-auto text-center">
 
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
