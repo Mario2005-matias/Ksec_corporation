@@ -21,7 +21,7 @@ export default function Header() {
     <main className={ `${styles.header} w-full text-zinc-200 md:px-10 px-4 py-1 flex justify-between items-center shadow-sm shadow-zinc-900 backdrop-blur-md bg-[#09090b]/80 z-50 sticky top-0`}>
 
         {/* Add Logotipo K */}
-      <section className=''> 
+      <section className='md:z-50 -z-50'> 
           <Link href='/'> <Logo /></Link>
       </section>
 
@@ -56,10 +56,10 @@ export default function Header() {
       
       {/* Show Menu Mobile */}
     
-          <section className={` fixed top-0 left-0 px-5 flex flex-col justify-center items-start gap-4 bg-[#09090b] backdrop-blur-md h-[22rem] w-full -z-30 transition-transform duration-700 ease-in-out ${menuOpen ? 'translate-y-0 ' : '-translate-y-full'}`}>
+          <section className={` fixed top-0 left-0 px-5 flex flex-col justify-center items-start gap-4 bg-[#09090b] h-[22rem] w-full transition-all -z-30 duration-700  ${menuOpen ? 'translate-y-0 opacity-100 pointer-events-auto ease-out' : '-translate-y-full opacity-0 pointer-events-none ease-in'}`}>
           
           {/* Navigate to navBar */}
-          <nav className=' pt-12 flex flex-col gap-1 items-start justify-center text-lg font-normal text-zinc-200 w-full'>
+          <nav className=' pt-8 flex flex-col gap-1 items-start justify-center text-lg font-normal text-zinc-200 w-full'>
              
               <Link href='/#home' className='transition-all duration-300 ease-in-out hover:text-zinc-300 hover:bg-[#0d0d10] focus:bg-[#0d0d10] p-2 py-1 rounded-sm w-full' onClick={toggleMenu}>Home</Link>
 
