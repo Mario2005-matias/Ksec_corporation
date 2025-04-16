@@ -44,7 +44,7 @@ const EquipeComponent: React.FC<EquipeProps> = ({ testimonials, autoplay = false
     <section className="relative w-full py-4 max-w-5xl mx-auto">
       <div className=" relative grid grid-cols-1 md:grid-cols-2">
         {/* Imagem */}
-        <div className="relative h-80 w-full">
+        <div className="relative h-[24rem] w-full">
           <AnimatePresence>
             {testimonials.map((testimonial, index) => (
               <motion.div
@@ -65,7 +65,7 @@ const EquipeComponent: React.FC<EquipeProps> = ({ testimonials, autoplay = false
                   alt={testimonial.name}
                   width={500}
                   height={500}
-                  className="h-full rounded-2xl object-cover w-72"
+                  className="h-full rounded-2xl object-cover w-80"
                 />
               </motion.div>
             ))}
@@ -85,7 +85,7 @@ const EquipeComponent: React.FC<EquipeProps> = ({ testimonials, autoplay = false
             <p className="text-sm text-zinc-400">
               {testimonials[active].designation}
             </p>
-            <p className="text-sm text-zinc-600 mt-5">
+            <p className="text-sm text-zinc-600 mt-5 text-justify md:text-start">
               {testimonials[active].quote}
             </p>
             <p className="text-sm text-zinc-400 mt-5">

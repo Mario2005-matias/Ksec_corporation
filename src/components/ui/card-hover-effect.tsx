@@ -75,11 +75,11 @@ export const Card = ({
   return (
     <div
       className={cn(
-        `rounded-2xl h-full w-full p-4 overflow-hidden bg-[#09090b] group-hover:border-[#078a42] relative z-20 ${styles.boxWrapper} border border-zinc-700`,
+        `rounded-2xl h-full w-full p-4 overflow-hidden bg-[#09090b] group-hover:border-[#078a42] relative z-10 ${styles.boxWrapper} border border-zinc-800`,
         className
       )}
     >
-      <div className="relative z-50">
+      <div className="relative z-20">
         <div className="p-2">{children}</div>
       </div>
     </div>

@@ -1,37 +1,66 @@
 import React from "react";
-import Main from "./Main";
-import AfterMain from "./AfterMain";
+import NiveisDeSeguranca from "./NiveisDeSeguranca";
 import Projetos from "../home/Projetos";
-import OurServices from "./OurServices";
-import HowAsign from "./HowAsign";
+import ComoProtegemos from "./ComoProtegemos";
 import CallToAction from "./CallToAction";
 import FaqSection from "./FaqSection";
-//import Image from 'next/image'
+
 
 export default function Product() {
   return (
     <>
-      <Main />
-      <AfterMain />
-      <section className="Container w-full h-full flex flex-col justify-center items-center z-10">
-        <div className="flex flex-col items-center justify-center max-w-3xl mx-auto">
-          <h2 className="subTitle">Nossas Soluções</h2>
-          <p className="text-center text-zinc-400 font-lg">
-            Tecnologias avançadas para proteger sua empresa contra ameaças
-            digitais em constante evolução. Desenvolvemos ferramentas
-            inteligentes que monitoram, previnem e respondem a ataques
-            cibernéticos de forma eficaz.
-          </p>
-        </div>
+    <main className='h-full w-full'>
 
-        <div className="max-w-5xl">
-          <Projetos />
-        </div>
-      </section>
-      <OurServices/>
-      <HowAsign/>
-      <CallToAction/>
-      <FaqSection/>
+        <section className='h-full w-full flex flex-col justify-center items-center gap-4 md:mt-10 mt-5 py-20'>
+           
+            <div className='max-w-5xl md:px-0 px-8'>
+              <h2 className=' text-justify text-4xl text-zinc-200 font-bold md:text-center pb-1'>Saiba mais sobre os nossos Servicos</h2>
+              <p className='text-lg text-zinc-400 md:text-center font-light text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, non architecto? Consectetur sequi minima itaque quaerat libero porro dolor? Qui totam facilis laudantium facere sapiente voluptatum repudiandae dicta soluta sit.</p>
+            </div>
+          
+            <div className='md:max-w-5xl md:px-0 px-8 w-full'>
+              <NiveisDeSeguranca />
+            </div>
+        </section>
+
+        <section className=" w-full h-full flex flex-col justify-center items-center gap-4 py-25 my-12">
+          <div className=" mx-auto">
+            <h2 className="subTitle">Nossas Soluções</h2>
+          </div>
+
+          <div className="max-w-5xl md:px-0 px-8">
+            <Projetos />
+          </div>
+        </section>
+
+        <section className='w-full h-full py-24 flex flex-col items-center justify-center gap-4'>
+
+            <div className=' md:px-0 px-8'>        
+                <h2 className="subTitle" > Como protegemos seus dados </h2>
+            </div>
+
+            <div className='md:px-0 px-8'>        
+                <ComoProtegemos/>
+            </div>
+        </section>
+
+
+          <section className="Container">
+              <CallToAction/>
+          </section>
+
+        <section className='w-full h-full  gap-4 py-24'> 
+
+          <div className='flex flex-col items-center justify-center md:px-0 px-8'>
+               <h2 className='subTitle'> Perguntas Frequentes </h2>
+          </div> 
+
+          <div className=' md:px-0 px-8 '>
+             <FaqSection/>
+          </div>
+        </section>
+
+      </main>
     </>
   );
 }
